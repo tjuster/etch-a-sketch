@@ -1,0 +1,25 @@
+body {
+    background-color: orange;
+    font-family: Roboto, sans-serif;
+}
+
+.outer-container {
+    width: 512px;
+    height: 512px;
+    border-style: solid;
+}
+#grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+
+}
+
+.grid-div {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
